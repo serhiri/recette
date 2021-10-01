@@ -1,0 +1,115 @@
+body {
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+p.black_font {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+div.black_font{
+    margin-bottom: -18px;
+}
+div.contenu{
+    background-color: white;
+    margin: 0px 10% 50px 10%;
+    padding: 30px;
+    min-width: 350px;
+    box-shadow: gray 5px 5px 2px;
+}
+h1 {
+    text-align: center;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+}
+.centre {
+    text-align: center;
+    width: 100%;
+}
+div.separateur{
+    height: 4px;
+    width: 200px;
+    background-color: #6C829D;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.info{
+    position: absolute;
+    bottom: 0; width: 100%; color: white; background-color: #6C829DC0;;;
+    height: 60px;
+}
+table.info td{
+   text-align: center;
+   font-size: 15px;
+   vertical-align: top;
+
+}
+table.info th{
+   text-align: center;
+   font-size: 17px;
+   vertical-align: bottom;
+}
+div.info{
+    position: relative;
+}
+img.info{
+    width: 100%;
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgrey;
+}
+
+div.colonne{
+    width: 100%;
+    margin-top: 0px;
+}
+div.colonne h3{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 4px solid #6C829D;
+    margin: 10px;
+   
+}
+div.colonne1{
+    
+    display: inline-block;
+    margin-right: 10px;
+}
+div.colonne2{
+    height: 100%;;
+}
+div.liste1 p{
+    text-align: center;
+    border: solid 1px lightgrey;
+    margin: 2px;
+    font-size: 14px;
+    padding: 5px 0;
+}
+table.liste2 p.numero{
+    background-color: #6C829D;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+table.liste2 td{
+    vertical-align: top;
+    font-size: 14px;
+    padding: auto;
+    margin: auto;
+}
