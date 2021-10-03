@@ -16,9 +16,8 @@ div.black_font{
 }
 div.contenu{
     background-color: white;
-    margin: 0px 10% 50px 10%;
-    padding: 30px;
-    min-width: 350px;
+    margin: 40px 8px 40px 8px;
+    padding: 0px 0px 8px 8px;
     box-shadow: gray 5px 5px 2px;
 }
 h1 {
@@ -43,17 +42,17 @@ div.separateur{
 table.info{
     position: absolute;
     bottom: 0; width: 100%; color: white; background-color: #6C829DC0;;;
-    height: 60px;
+    height: 50px;
 }
 table.info td{
    text-align: center;
-   font-size: 15px;
+   font-size: 12px;
    vertical-align: top;
 
 }
 table.info th{
    text-align: center;
-   font-size: 17px;
+   font-size: 14px;
    vertical-align: bottom;
 }
 div.info{
@@ -112,4 +111,50 @@ table.liste2 td{
     font-size: 14px;
     padding: auto;
     margin: auto;
+}
+@media only screen and (min-width: 768px){
+    div.contenu {
+        min-width: 350px;
+        margin: 0px 10% 50px 10%;
+        padding: 30px;
+    }
+    table.info{
+        height: 60px;
+    }
+    table.info td{
+        font-size: 15px;
+    
+    }
+    table.info th{
+       font-size: 17px;
+    }
+    div.colonne{
+        width: 45%;
+        margin-top: 10px;
+    }
+    div.colonne h3{
+        text-align: center;
+        text-transform: uppercase;
+        border-bottom: 4px solid #6C829D;
+        font-size: 15px;
+        padding-bottom: 5px;
+       
+    }
+    div.colonne1{
+        
+        display: inline-block;
+        margin-right: 10%;
+    }
+    div.colonne2{
+        float:right;
+        
+        
+    }
+}
+@media only screen and (min-width: 900px){
+    div.contenu {
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
 }
